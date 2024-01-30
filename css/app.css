@@ -8,8 +8,27 @@ ul, ol, menu{
     list-style: none;
 }
 
-.conteiner{
+.conteiner {
     max-width: 1024px;
     margin: 0 auto;
 }
 
+body{
+    background-color: rgba(177, 190, 197, 0.308);
+}
+
+.header-box{
+    height: 120px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.logo-img{
+    width: 80px;
+}
+
+.title-header{
+    font-size: 100px;
+    display: inline-block;
+    text-align: center;
+}
