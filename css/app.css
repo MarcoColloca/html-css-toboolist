@@ -32,3 +32,54 @@ body{
     display: inline-block;
     text-align: center;
 }
+
+.button-box{
+    background-color: white;
+    padding: 10px;
+}
+
+.add-task-button{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 5px;
+}
+
+.add-section-button{
+    color: rgb(173, 173, 173);
+    border: solid 1px gray;
+    padding: 5px;
+}
+
+.add-section-button, .add-task-button{
+    display: inline-block;
+    border-radius: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.margin-left-50{
+    margin-left: 50px;
+}
+
+.dinline-block{
+    display: inline-block;
+}
+
+.task-box{
+    background-color: white;
+    margin-top: 2px;
+}
+
+.check-button{
+    color: greenyellow;
+    border-radius: 50%;
+    border: solid 1px greenyellow;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.main-text{
+    font-size: 30px;
+}
