@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol, menu{
+    list-style: none;
+}
+
+.conteiner{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
