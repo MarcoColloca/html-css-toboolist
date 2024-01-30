@@ -52,9 +52,11 @@ body{
 
 .add-section-button, .add-task-button{
     display: inline-block;
-    border-radius: 5%;
+    border-radius: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .margin-left-50{
@@ -94,17 +96,42 @@ h2{
 
 .main-text{
     font-size: 30px;
+    margin-left: 5px;
 }
 
 li{
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.editorial-box{
-    background-color: rgb(0, 151, 201);
+.topic-box{
     color: white;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
+}
+
+.bg-color-lblue{
+    background-color: rgb(0, 151, 201);
+}
+
+.bg-color-purple{
+    background-color: rebeccapurple;
+}
+
+.bg-color-green{
+    background-color: rgb(141, 187, 168);
+}
+
+.bg-color-orange{
+    background-color: rgb(255, 153, 0);
+}
+
+.bg-color-pink{
+    background-color: palevioletred;
+}
+
+.bg-color-greenyellow{
+    background-color: greenyellow;
 }
