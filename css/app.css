@@ -1,3 +1,4 @@
+/* Regole Reset */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,13 @@ ul, ol, menu{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+
+/* LAYOUT */
 .conteiner {
     max-width: 1024px;
     margin: 0 auto;
@@ -17,6 +25,8 @@ body{
     background-color: rgba(177, 190, 197, 0.308);
 }
 
+
+/* utility */
 .bg-color-lblue{
     background-color: rgb(0, 151, 201);
 }
@@ -49,9 +59,10 @@ body{
     display: inline-block;
 }
 
+
+/* Header */
 .header-box{
     height: 120px;
-    margin-bottom: 40px;
     background-color: white;
 }
 
@@ -65,10 +76,17 @@ body{
     text-align: center;
 }
 
+/* Main */
+.maincontent{
+    padding: 40px 10px
+}
+
 .button-box{
     background-color: white;
     padding: 10px;
     margin-bottom: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .add-section-button, .add-task-button{
@@ -95,18 +113,19 @@ body{
     background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .check-mark, .cross-mark{
-    font-size: 15px;
-    padding: 5px;
+    font-size: 25px;
+    padding: 5px 10px;  
     border-radius: 50%;
 }
 
 .check-mark{
     color: rgb(0, 107, 32);
     border: solid 1px rgb(0, 107, 32);
-
 }
 
 .cross-mark{
@@ -124,6 +143,7 @@ h2{
     margin-left: 5px;
 }
 
+/* Regpòe liste */
 li{
     margin-bottom: 20px;
 }
@@ -139,4 +159,3 @@ ul{
     padding-right: 20px;
     border-radius: 20px;
 }
-
